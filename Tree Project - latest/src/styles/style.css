@@ -1,0 +1,34 @@
+.button-1{
+    -fx-background-color:#85A389;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button-1:hover{
+    -fx-background-color: #9fbea3;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button-1:pressed{
+    -fx-background-color:#85A389;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button-2{
+    -fx-background-color:#85A389;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button-2:hover{
+    -fx-background-color: #9fbea3;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button-2:pressed{
+    -fx-background-color:#85A389;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.login_bg{
+    -fx-background-color: linear-gradient(to bottom right, #7edb97, #0d7d2d);
+}
+

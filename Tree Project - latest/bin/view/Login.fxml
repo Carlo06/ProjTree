@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginRegisterController">
+   <children>
+      <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <AnchorPane fx:id="login_form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+               <children>
+                  <ImageView fitHeight="607.0" fitWidth="408.0">
+                     <image>
+                        <Image url="@../images/overlay.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="user" layoutX="499.0" layoutY="308.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#loginAccount" prefHeight="25.0" prefWidth="204.0" promptText="Enter your email" />
+                  <PasswordField fx:id="pass" layoutX="499.0" layoutY="350.0" onAction="#loginAccount" prefHeight="25.0" prefWidth="204.0" promptText="Enter your password" />
+                  <Button fx:id="loginBtn" layoutX="499.0" layoutY="411.0" mnemonicParsing="false" onAction="#loginAccount" prefHeight="31.0" prefWidth="204.0" style="-fx-background-color: black;" text="Log In" textFill="#fffafa">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Line endX="32.20001220703125" layoutX="561.0" layoutY="503.0" startX="-121.4000244140625" stroke="#898686" strokeLineJoin="ROUND" />
+                  <Text fill="#797373" layoutX="477.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By clicking continue, you agree to our " wrappingWidth="203.99999999999977" />
+                  <Text layoutX="679.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Term of " wrappingWidth="51.19999999999993">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Text>
+                  <Text layoutX="539.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Service" wrappingWidth="48.79996032714837">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Text>
+                  <Text fill="#797373" layoutX="580.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and" wrappingWidth="27.999969482421648" />
+                  <Text layoutX="604.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy" wrappingWidth="96.2666198730468">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Text>
+                  <Text layoutX="506.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In to your account" wrappingWidth="195.74611282348633">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="261.0" fitWidth="266.0" layoutX="468.0" layoutY="-42.0">
+                     <image>
+                        <Image url="@../images/Login_Logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="96.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink fx:id="createAccount" alignment="CENTER" layoutX="250.0" layoutY="530.0" onAction="#switchForm" text="Register" textFill="#d9aa0f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <Line endX="32.20001220703125" layoutX="731.0" layoutY="503.0" startX="-121.4000244140625" stroke="#898686" strokeLineJoin="ROUND" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="reg_form" layoutY="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="607.0" fitWidth="408.0" layoutY="1.0">
+                     <image>
+                        <Image url="@../images/overlay.jpeg" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="reg_user" layoutX="497.0" layoutY="329.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#registerAccount" prefHeight="25.0" prefWidth="204.0" promptText="Enter your name" />
+                  <TextField fx:id="reg_email" layoutX="497.0" layoutY="365.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#registerAccount" prefHeight="25.0" prefWidth="204.0" promptText="Enter your email" />
+                  <Text layoutX="531.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create an account" wrappingWidth="156.54616165161133">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="regbutton" layoutX="496.0" layoutY="491.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#registerAccount" prefWidth="205.0" style="-fx-background-color: black;" text="Register" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Hyperlink fx:id="alreadyhaveAccount" layoutX="261.0" layoutY="531.0" onAction="#switchForm" text="Log In" textFill="#d9aa0f" underline="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <ImageView fitHeight="261.0" fitWidth="266.0" layoutX="467.0" layoutY="-42.0">
+                     <image>
+                        <Image url="@../images/Login_Logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="507.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Your Personal Information" wrappingWidth="203.99999999999977">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="69.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTER">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="93.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an account?">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <PasswordField fx:id="reg_password" layoutX="498.0" layoutY="401.0" onAction="#registerAccount" prefHeight="25.0" prefWidth="204.0" promptText="Enter Password" />
+                  <PasswordField fx:id="reg_conpassword" layoutX="498.0" layoutY="434.0" onAction="#registerAccount" prefHeight="25.0" prefWidth="204.0" promptText="Confirm Password" />
+               </children>
+            </AnchorPane>
+
+                     </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" vvalue="1.0">
+        <content>
+          <AnchorPane fx:id="mainHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1200.0" prefWidth="900.0" style="-fx-border-radius: 5px;" stylesheets="@../styles/style.css">
+               <children>
+                  <ImageView fitHeight="616.0" fitWidth="914.0" layoutX="-16.0" layoutY="-8.0">
+                     <image>
+                        <Image url="@../images/header.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="281.0" fitWidth="480.0" layoutX="197.0" layoutY="-126.0">
+                     <image>
+                        <Image url="@../images/Home_Header.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="892.0" layoutX="-3.0" layoutY="608.0">
+                     <image>
+                        <Image url="@../images/Trees.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="123.0" fitWidth="900.0" layoutY="665.0">
+                     <image>
+                        <Image url="@../images/Wave_SVG.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#dcdbdb" layoutX="65.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Your pocket change holds the power to change the world.&quot;" textAlignment="CENTER" wrappingWidth="343.73667907714844">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="30.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="buyTree_btn" layoutX="181.0" layoutY="368.0" mnemonicParsing="false" onAction="#switchStore" prefHeight="36.0" prefWidth="110.0" styleClass="button-1" stylesheets="@../styles/style.css" text="Buy a Tree" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" fill="#84a188d1" height="194.0" layoutX="450.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" stroke="#00000007" strokeLineCap="ROUND" strokeType="INSIDE" width="326.0" />
+                  <ImageView fitHeight="88.0" fitWidth="91.0" layoutX="466.0" layoutY="214.0">
+                     <image>
+                        <Image url="@../images/Tree_Icon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="74.0" fitWidth="80.0" layoutX="466.0" layoutY="309.0">
+                     <image>
+                        <Image url="@../images/Coin.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="122.20001220703125" endY="1.220703125E-4" layoutX="628.0" layoutY="302.0" startX="-152.99993896484375" startY="9.1552734375E-5" stroke="#5b5555" />
+                  <Text layoutX="564.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="trees planted by Pocket Forest" wrappingWidth="194.13677978515625">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="563.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dedicated to climate action" wrappingWidth="174.13677978515625">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="403.0" fitWidth="317.0" layoutX="278.0" layoutY="807.0">
+                     <image>
+                        <Image url="@../images/Philippines_Map.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a188d1" height="40.0" layoutX="148.0" layoutY="899.0" stroke="#00000007" strokeLineCap="ROUND" strokeType="INSIDE" width="174.0" />
+                  <Text layoutX="166.0" layoutY="919.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLANTING METHOD">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="177.0" layoutY="930.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nurseries and reforestation" wrappingWidth="122.94523620605469">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a188d1" height="45.0" layoutX="598.0" layoutY="958.0" stroke="#00000007" strokeLineCap="ROUND" strokeType="INSIDE" width="175.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a188d1" height="59.0" layoutX="148.0" layoutY="1075.0" stroke="#00000007" strokeLineCap="ROUND" strokeType="INSIDE" width="177.0" />
+                  <ImageView fitHeight="73.0" fitWidth="78.0" layoutX="204.0" layoutY="843.0">
+                     <image>
+                        <Image url="@../images/shovel.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="617.0" layoutY="980.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLANTING SEASON">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="158.0" layoutY="1098.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WILDLIFE PROTECTED">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="655.0" layoutY="994.0" strokeType="OUTSIDE" strokeWidth="0.0" text="March - May" wrappingWidth="59.34526062011719">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="73.0" fitWidth="78.0" layoutX="652.0" layoutY="900.0">
+                     <image>
+                        <Image url="@../images/game-icons--watering-can.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="162.0" layoutY="1112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tamaraw, Philippine, Eagle, Waldens, Hornbill, Warty Pig, etc." textAlignment="CENTER" wrappingWidth="147.34519958496094">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84a188d1" height="51.0" layoutX="227.0" layoutY="760.0" stroke="#00000007" strokeLineCap="ROUND" strokeType="INSIDE" width="403.0" />
+                  <Text fill="#fefffe" layoutX="245.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23,000" wrappingWidth="85.34524536132812">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="246.0" layoutY="802.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tress planted" wrappingWidth="85.34526062011719">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="410.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="300" wrappingWidth="52.54524230957031">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="380.0" layoutY="802.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hectares restored" wrappingWidth="113.34526062011719">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="545.0" layoutY="789.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022" wrappingWidth="68.54524230957031">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="562.0" layoutY="802.0" strokeType="OUTSIDE" strokeWidth="0.0" text="since" wrappingWidth="34.14524841308594">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="73.0" fitWidth="78.0" layoutX="194.0" layoutY="1015.0">
+                     <image>
+                        <Image url="@../images/game-icons--plants-and-animals.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="treeplanted_num" layoutX="578.0" layoutY="227.0" text="200,462,333" textFill="#030303">
+                     <font>
+                        <Font name="Arial" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="money_num" layoutX="561.0" layoutY="315.0" text="₱1,234,567.89" textFill="#030303">
+                     <font>
+                        <Font name="Arial" size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+      </ScrollPane>
+   </children>
+</StackPane>

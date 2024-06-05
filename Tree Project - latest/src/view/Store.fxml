@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StoreController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" vvalue="1.0">
+        <content>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1800.0" prefWidth="900.0">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="224.0" layoutX="681.0" layoutY="1618.0">
+                     <image>
+                        <Image url="@../images/5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="180.0" fitWidth="309.0" layoutX="-3.0" layoutY="1620.0">
+                     <image>
+                        <Image url="@../images/4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="162.0" fitWidth="159.0" layoutX="-34.0" layoutY="-28.0">
+                     <image>
+                        <Image url="@../images/Login_Logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#d9aa0f" layoutX="338.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop Trees">
+                     <font>
+                        <Font name="Comic Sans MS" size="38.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#85a389" layoutX="352.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start Planting Today" wrappingWidth="175.00979614257812">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="170.0" fitWidth="246.0" layoutX="57.0" layoutY="112.0">
+                     <image>
+                        <Image url="@../images/balete.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="253.0" layoutX="336.0" layoutY="112.0">
+                     <image>
+                        <Image url="@../images/bamboo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="229.0" layoutX="615.0" layoutY="112.0">
+                     <image>
+                        <Image url="@../images/banana-tree.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="Balete_Tree" layoutX="93.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balete tree" />
+                  <Text layoutX="159.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Ficus benjamina)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="60.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Balete tree, also known as the Banyan tree, belongs to the Ficus genus and is found in the Philippines, where it holds ecological and cultural significance. Ecologically, Balete trees provide vital habitats for wildlife, including birds, bats, and insects, and their extensive root systems help prevent soil erosion and regulate water cycles, reducing flooding. They also play a crucial role in air purification by absorbing pollutants and in climate regulation by providing shade and cooling the environment. Culturally, Balete trees are revered in local folklore and traditions, often considered sacred, and are valued for their aesthetic beauty in urban landscapes. Promoting the conservation and sustainable use of Balete trees is essential for preserving biodiversity and maintaining ecological balance." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Bamboo_Tree" layoutX="376.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bamboo Tree" />
+                  <Text layoutX="459.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Bambusa)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="334.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bamboo, belonging to the subfamily Bambusoideae of the grass family Poaceae, encompasses various species, including native ones like Kawayan Tinik (Bambusa blumeana) and Kawayan Kiling (Bambusa vulgaris). Renowned for its ecological significance, bamboo efficiently sequesters carbon dioxide, stabilizes soil with its extensive root system, and regenerates rapidly, making it a sustainable and renewable resource. Its ability to thrive in diverse climates and its water-saving properties further underscore its environmental benefits. Culturally and economically, bamboo holds immense value, being versatile in construction, furniture making, and traditional crafts, thus providing livelihoods to many communities. Promoting the conservation and sustainable use of bamboo not only supports biodiversity but also fosters economic development and environmental resilience in the Philippines and beyond." textAlignment="JUSTIFY" wrappingWidth="265.9831790924072">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="615.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The banana tree, is a perennial flowering plant belonging to the family Musaceae. Renowned for its edible fruit, the banana tree is a staple crop in many tropical regions, including the Philippines. It typically grows from a rhizome and consists of large, elongated leaves that give it a distinctive appearance. Bananas provide essential nutrients such as potassium, vitamin C, and dietary fiber, making them a valuable food source. Additionally, banana trees play a crucial role in soil conservation, as their extensive root systems help prevent erosion. Culturally, bananas are significant in Filipino cuisine and traditions, being used in various dishes and rituals." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Banana_Tree" layoutX="650.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banana Tree" />
+                  <Text layoutX="728.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Musa)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_balete_btn" layoutX="102.0" layoutY="547.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Balete Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="add_bamboo_btn" layoutX="388.0" layoutY="547.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Bamboo Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="add_banana_btn" layoutX="685.0" layoutY="547.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Banana Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text fill="#85a389" layoutX="363.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="175.00979614257812">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="29.0" layoutY="637.0">
+                     <image>
+                        <Image url="@../images/Elemi.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="Elemi_Tree" layoutX="65.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elemi tree" />
+                  <Text layoutX="436.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Lansium parasiticum)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_elemi_btn" layoutX="92.0" layoutY="1125.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Elimi Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text layoutX="26.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Elemi tree, is a species of flowering tree in the family Burseraceae, native to the Philippines. It is prized for its fragrant resin, known as elemi, which is used in perfumes, incense, and traditional medicine. The elemi tree typically grows up to 30 meters tall and has a straight trunk with smooth, grayish bark. Its leaves are pinnate, and its small, white flowers are borne in clusters. Elemi resin is harvested by making incisions in the tree's bark, allowing the aromatic sap to ooze out and harden. Besides its commercial value, the elemi tree also plays a role in biodiversity conservation, providing habitat and food for various wildlife species." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="324.0" layoutY="638.0">
+                     <image>
+                        <Image url="@../images/langsat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="617.0" layoutY="637.0">
+                     <image>
+                        <Image url="@../images/mangrove.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="321.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The langsat, is a tropical fruit-bearing tree native to Southeast Asia, including the Philippines. It belongs to the Meliaceae family and is prized for its delicious and sweet-tasting fruit, which is also known as langsat. The langsat tree typically reaches heights of 10 to 15 meters and has dense foliage of evergreen leaves. Its fruits are small, round, and usually yellow or pale brown when ripe, with a thin, leathery skin covering juicy, translucent segments. Langsat fruits are enjoyed fresh as a snack or dessert and are also used in various culinary applications. Beyond its culinary appeal, the langsat tree contributes to ecosystem health by providing habitat and food for wildlife, enhancing biodiversity in its native range." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Langsat_Tree" layoutX="361.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Langsat tree" />
+                  <Text layoutX="602.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mangroves are a group of salt-tolerant trees and shrubs that grow in coastal intertidal zones, brackish water, and estuarine environments. These unique ecosystems, characterized by their tangled roots and dense vegetation, play a vital role in coastal protection, biodiversity conservation, and climate regulation. Mangrove species, including Rhizophora, Avicennia, and Sonneratia, are adapted to thrive in harsh coastal conditions, where they provide crucial habitats for various marine and terrestrial species, including fish, crustaceans, and birds. Additionally, mangroves act as natural buffers against coastal erosion and storm surges, helping to stabilize shorelines and protect coastal communities from natural disasters. Furthermore, mangrove forests sequester significant amounts of carbon dioxide, making them essential in mitigating climate change. Unfortunately, mangrove ecosystems face threats from human activities such as deforestation, pollution, and coastal development, highlighting the importance of conservation efforts to safeguard these valuable coastal habitats." textAlignment="JUSTIFY" wrappingWidth="267.583215713501">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Mangrove_Tree" layoutX="655.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mangrove tree" />
+                  <Text layoutX="742.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Rhizophora)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_langsat_btn" layoutX="389.0" layoutY="1125.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Langsat Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="add_mangove_btn" layoutX="668.0" layoutY="1125.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Mangrove Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text layoutX="127.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Canarium luzonicum)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="36.0" layoutY="1241.0">
+                     <image>
+                        <Image url="@../images/molave.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="329.0" layoutY="1241.0">
+                     <image>
+                        <Image url="@../images/narra.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="170.0" fitWidth="245.0" layoutX="616.0" layoutY="1241.0">
+                     <image>
+                        <Image url="@../images/white%20meranti.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="Molave_Tree" layoutX="70.0" layoutY="1425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Molave Tree" wrappingWidth="82.75105285644531" />
+                  <Text layoutX="145.0" layoutY="1425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Vitex parviflora)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="33.0" layoutY="1467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Molave, is a hardwood tree native to the Philippines and other parts of Southeast Asia. Renowned for its durability and strength, the molave tree is highly valued for timber and has been extensively used in construction, shipbuilding, and furniture making. It typically grows up to 25 meters tall with a straight trunk and dense, dark green foliage. Molave wood is known for its resistance to decay and termites, making it ideal for outdoor applications and structural purposes. Beyond its economic value, the molave tree plays a crucial ecological role, providing habitat for various wildlife species and contributing to soil stabilization in its native habitats. Despite its importance, molave forests have faced threats from deforestation and habitat loss, emphasizing the need for conservation efforts to preserve this valuable species and its ecosystems. " textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_molave_btn" layoutX="89.0" layoutY="1721.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Molave Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text fx:id="Narra_Tree" layoutX="384.0" layoutY="1426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Narra Tree" wrappingWidth="82.75105285644531" />
+                  <Text fx:id="Molave_Tree" layoutX="448.0" layoutY="1426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Pterocarpus indicus)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="336.0" layoutY="1468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Narra, is a majestic hardwood tree native to Southeast Asia, including the Philippines. Revered as the national tree of the Philippines, narra is prized for its beautiful reddish-brown timber, which is highly valued in furniture making, cabinetry, and decorative woodwork. Its distinctive leaves are compound and pinnate, with small, fragrant flowers that develop into pods containing seeds. Narra trees can grow up to 30 meters tall, with a broad canopy that provides shade and shelter for various wildlife species. Beyond its commercial and aesthetic value, narra plays a significant ecological role in its native habitats, contributing to soil stabilization, carbon sequestration, and biodiversity conservation. Despite its importance, narra forests have faced threats from illegal logging and habitat degradation, highlighting the importance of conservation efforts to protect this iconic species and its ecosystems." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_narra_btn" layoutX="396.0" layoutY="1721.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a Narra Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text fx:id="White_Meranti" layoutX="646.0" layoutY="1427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="White Meranti" wrappingWidth="82.75105285644531" />
+                  <Text layoutX="731.0" layoutY="1427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Shorea almon)">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="620.0" layoutY="1469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="White Meranti, is a towering tree species native to the tropical rainforests of Southeast Asia, including the Philippines. Renowned for its immense size and straight, cylindrical trunk, White Meranti is one of the dominant canopy trees in its habitat, reaching heights of over 80 meters and diameters exceeding 2 meters. Its timber, known for its strength, durability, and resistance to decay, is highly sought after in the timber industry for various construction purposes, including building materials and furniture. White Meranti trees also play a vital ecological role, providing habitat for numerous wildlife species and contributing to the overall biodiversity of the forest ecosystem. However, like many tropical hardwood species, White Meranti forests are increasingly threatened by deforestation and illegal logging, necessitating conservation efforts to protect these valuable ecosystems and the biodiversity they support." textAlignment="JUSTIFY" wrappingWidth="250.78316688537598">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="add_meranti_btn" layoutX="661.0" layoutY="1721.0" mnemonicParsing="false" onAction="#addToCart" style="-fx-background-color: #85A389;" styleClass="button-2" stylesheets="@../styles/style.css" text="Plant a White Meranti Tree" textFill="WHITE" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="back" layoutX="91.0" layoutY="28.0" mnemonicParsing="false" onAction="#gobacktoHome" text="🔙">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="view_cart" layoutX="827.0" layoutY="28.0" mnemonicParsing="false" onAction="#viewCart" text="🛒">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</StackPane>
